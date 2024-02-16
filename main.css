@@ -1,0 +1,60 @@
+.background {
+    background-color: rgb(225, 225, 225);
+}
+
+.nav-container {
+    background:#f6f6f6;
+    font-family: Tahoma;
+    font-size: 12px;
+    height: 32px;
+    text-transform: uppercase;
+}
+
+.button {
+    width : 80px;
+    text-align: center;
+    padding : 3px;    
+    font-size: 16px;
+    margin : 5px;
+    padding : 5px;
+    border: 1px solid lightgray;
+}
+
+.button:hover {
+    background-color: 157dd3;
+    color: white;
+    cursor:pointer;
+}
+
+@media screen and (min-width: 1200px){
+    .post-box {
+        display: flex;
+        vertical-align: middle;
+        background:#efefef;
+        width: 32%;
+        margin: 5 auto;
+        padding: 3px;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width:1200px){
+    .post-box {
+        display: flex;
+        vertical-align: middle;
+        background:#efefef;
+        width: 48%;
+        margin: 5 auto;
+        padding: 3px;
+    }
+}
+
+@media screen and (max-width:800px){
+    .post-box {
+        display: flex;
+        vertical-align: middle;
+        background:#efefef;
+        width: 99%;
+        margin: 5 auto;
+        padding: 3px;
+    }
+}
