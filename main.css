@@ -3,11 +3,12 @@
 }
 
 .nav-container {
-    background:#f6f6f6;
-    font-family: Tahoma;
+    font-family: "Campton Book",Arial,sans-serif;
     font-size: 12px;
-    height: 32px;
+    background:#f6f6f6;
+    height: auto;
     text-transform: uppercase;
+    padding: 5px;
 }
 
 .button {
@@ -17,12 +18,19 @@
     font-size: 16px;
     margin : 5px;
     padding : 5px;
-    border: 1px solid lightgray;
+    color: rgb(95, 95, 95);
+}
+
+a:hover {
+	color:purple;
 }
 
 .button:hover {
-    background-color: 157dd3;
-    color: white;
+    background-color: rgb(235, 235, 235);
+    border-radius: 5px;
+    color: rgb(75, 75, 75);
+    text-decoration: none;
+    font-weight: bold;
     cursor:pointer;
 }
 
